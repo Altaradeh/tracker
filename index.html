@@ -25,7 +25,7 @@
     "Latitude: " + lat + "<br>Longitude: " + lon;
 
   // send location to Google Sheets
-  fetch("https://script.google.com/macros/s/AKfycbzc9mk3iQFseWyAApRK6bB9wv7GRT3H-7YRJ2c7UHb7g3I_0aUzgBfTHfhkaTGbCpyNag/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbzHpUlbRfUKh6PLCgpcG38L3k3kl-vpW23Yl3fZ4pprOgLkJ2WncRXWZXp6w51hJSH6tg/exec", {
     method: "POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({latitude: lat, longitude: lon})
